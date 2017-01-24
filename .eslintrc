@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "@lab009/eslint-config-lab009",
+  "globals": {
+    "document": false,
+    "window": false,
+    "__INITIAL_STATE__": false,
+    "__DEV__": false
+  },
+  "settings": {
+    "import/resolver": "webpack",
+    "import/extensions": [".styl"],
+    "import/ignore": ["\\.styl$"]
+  }
+}

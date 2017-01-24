@@ -1,0 +1,9 @@
+{
+  "presets": [
+    ["@lab009/babel-preset-lab009", { "es2015": { "loose": true } }]
+  ],
+  "plugins": [
+    "babel-plugin-transform-decorators-legacy",
+    "babel-plugin-add-module-exports"
+  ]
+}
