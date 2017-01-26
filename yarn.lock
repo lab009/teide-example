@@ -25,17 +25,17 @@
     babel-preset-react "6.16.0"
     babel-runtime "6.20.0"
 
-"@lab009/erebus@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@lab009/erebus/-/erebus-2.0.0.tgz#c0e341e9dff4cbe0c914b002894cac5016a22bda"
+"@lab009/erebus@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@lab009/erebus/-/erebus-2.0.2.tgz#7182b2daadb52e0ba34e586f9d92d59f1cba92c7"
   dependencies:
     immutable "3.8.1"
     lodash.mapvalues "4.6.0"
     lodash.merge "4.6.0"
     normalizr "2.2.1"
     reduce-reducers "0.1.2"
-    redux-actions "1.2.0"
-    superagent "3.3.2"
+    redux-actions "1.2.1"
+    superagent "3.4.0"
 
 "@lab009/eslint-config-lab009@2.1.0":
   version "2.1.0"
@@ -52,15 +52,15 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@lab009/redux-immutablejs/-/redux-immutablejs-1.0.0.tgz#c00622eb3a6c4199c94e8439fa7c01bdc249b40f"
 
-"@lab009/teide-data-view@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@lab009/teide-data-view/-/teide-data-view-2.0.0.tgz#2fb0ac483e3c42d74bfc6f2bbb1c3f25668994c0"
+"@lab009/teide-data-view@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@lab009/teide-data-view/-/teide-data-view-2.0.1.tgz#f95b49ae430f43272899bc6555b31230874ec4af"
   dependencies:
     immutable "3.8.1"
 
-"@lab009/teide-router@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@lab009/teide-router/-/teide-router-2.0.0.tgz#6c0a7e6675261d701f42d616d31eb47ffecb8add"
+"@lab009/teide-router@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@lab009/teide-router/-/teide-router-2.0.1.tgz#0c8677b726a702dcb4e3b9ae1fbb9fcfba1e84e5"
   dependencies:
     immutable "3.8.1"
     invariant "2.2.2"
@@ -68,9 +68,9 @@
     react-router-redux "3.0.0"
     react-router-scroll "0.3.3"
 
-"@lab009/teide@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@lab009/teide/-/teide-2.0.0.tgz#315ee7c2401d62423a71108c491a12d68c2d03b5"
+"@lab009/teide@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@lab009/teide/-/teide-2.0.2.tgz#6ae477e329182d633b3c9468843cb7a82f491cde"
   dependencies:
     "@lab009/redux-immutablejs" "1.0.0"
     immutable "3.8.1"
@@ -84,7 +84,7 @@
     react-redux "5.0.2"
     reduce-reducers "0.1.2"
     redux "3.6.0"
-    redux-actions "1.2.0"
+    redux-actions "1.2.1"
     redux-batched-subscribe "0.1.6"
     redux-thunk "2.2.0"
 
@@ -313,7 +313,7 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-autoprefixer@6.7.0:
+autoprefixer@6.7.0, autoprefixer@^6.3.1:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.7.0.tgz#88992cf04df141e7b8293550f2ee716c565d1cae"
   dependencies:
@@ -322,17 +322,6 @@ autoprefixer@6.7.0:
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
     postcss "^5.2.11"
-    postcss-value-parser "^3.2.3"
-
-autoprefixer@^6.3.1:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.5.1.tgz#ae759a5221e709f3da17c2d656230e67c43cbb75"
-  dependencies:
-    browserslist "~1.4.0"
-    caniuse-db "^1.0.30000554"
-    normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    postcss "^5.2.4"
     postcss-value-parser "^3.2.3"
 
 aws-sign2@~0.6.0:
@@ -950,14 +939,14 @@ babel-register@6.22.0, babel-register@^6.22.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.20.0, babel-runtime@^6.0.0, babel-runtime@^6.2.0, babel-runtime@^6.20.0, babel-runtime@^6.9.0, babel-runtime@^6.9.1:
+babel-runtime@6.20.0:
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-babel-runtime@^6.18.0, babel-runtime@^6.22.0:
+babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.9.0, babel-runtime@^6.9.1:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.22.0.tgz#1cf8b4ac67c77a4ddb0db2ae1f74de52ac4ca611"
   dependencies:
@@ -1199,12 +1188,6 @@ browserslist@^1.0.1, browserslist@^1.5.2, browserslist@~1.6.0:
     caniuse-db "^1.0.30000613"
     electron-to-chromium "^1.2.0"
 
-browserslist@~1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-1.4.0.tgz#9cfdcf5384d9158f5b70da2aa00b30e8ff019049"
-  dependencies:
-    caniuse-db "^1.0.30000539"
-
 buffer-crc32@~0.2.3:
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
@@ -1292,7 +1275,7 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.3.0"
     shelljs "^0.7.0"
 
-caniuse-db@^1.0.30000346, caniuse-db@^1.0.30000539, caniuse-db@^1.0.30000554, caniuse-db@^1.0.30000613:
+caniuse-db@^1.0.30000346, caniuse-db@^1.0.30000613:
   version "1.0.30000613"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000613.tgz#639133b7a5380c1416f9701d23d54d093dd68299"
 
@@ -1838,13 +1821,13 @@ dateformat@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-2.0.0.tgz#2743e3abb5c3fc2462e527dca445e04e9f4dee17"
 
-debug@2.2.0, debug@^2.2.0, debug@~2.2.0:
+debug@2.2.0, debug@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
     ms "0.7.1"
 
-debug@2.6.0, debug@^2.1.1:
+debug@2.6.0, debug@^2.1.1, debug@^2.2.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.0.tgz#bc596bcabe7617f11d9fa15361eded5608b8499b"
   dependencies:
@@ -3158,13 +3141,9 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-iconv-lite@0.4.15:
+iconv-lite@0.4.15, iconv-lite@~0.4.13:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
-
-iconv-lite@~0.4.13:
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
 
 icss-replace-symbols@^1.0.2:
   version "1.0.2"
@@ -4944,7 +4923,7 @@ postcss-zindex@^2.0.1:
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
-postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.11, postcss@^5.2.4:
+postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.11:
   version "5.2.11"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.11.tgz#ff29bcd6d2efb98bfe08a022055ec599bbe7b761"
   dependencies:
@@ -5045,7 +5024,7 @@ q@^1.1.2:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 
-qs@6.2.0, qs@^6.1.0:
+qs@6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
@@ -5053,7 +5032,7 @@ qs@6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.1.tgz#ce03c5ff0935bc1d9d69a9f14cbd18e568d67625"
 
-qs@~6.3.0:
+qs@^6.1.0, qs@~6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
 
@@ -5318,9 +5297,9 @@ reduce-reducers@0.1.2, reduce-reducers@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/reduce-reducers/-/reduce-reducers-0.1.2.tgz#fa1b4718bc5292a71ddd1e5d839c9bea9770f14b"
 
-redux-actions@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/redux-actions/-/redux-actions-1.2.0.tgz#4f421f1aa74c827d5e8abce6c009d5872c4af3e6"
+redux-actions@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/redux-actions/-/redux-actions-1.2.1.tgz#649711d88f49f1dde5bc5a1cea8ceec5b54d9181"
   dependencies:
     invariant "^2.2.1"
     lodash "^4.13.1"
@@ -5941,9 +5920,9 @@ sum-up@^1.0.1:
   dependencies:
     chalk "^1.0.0"
 
-superagent@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.3.2.tgz#23b4ed895911215a1f90b44d16638b6492f9c114"
+superagent@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.4.0.tgz#cf8e40b303d5b2949c0fb036ddc30927e14958c7"
   dependencies:
     component-emitter "^1.2.0"
     cookiejar "^2.0.6"
